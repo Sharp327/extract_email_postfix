@@ -15,7 +15,7 @@ const ExtractedData = sequelize.define('ExtractedData', {
     guestPhone: { type: DataTypes.STRING },
     location: { type: DataTypes.STRING },
 }, {
-    tableName: 'extracted_data',
+    tableName: 'turo_trips',
 });
 
 
